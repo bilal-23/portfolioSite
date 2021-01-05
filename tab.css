@@ -1,0 +1,130 @@
+.cta{
+    font-size: 2.5rem;
+    padding: 15px 60px;
+    margin-top: 10px !important ;
+}
+/*Heading*/
+
+h1.section-title{ 
+    font-size: 4.5rem;
+}
+#services .service-top h1{
+    font-size: 4.5rem;
+}
+#projects h1.section-title{
+    font-size: 4.5rem;
+    padding: 70px 0px;
+}
+#about h1.section-title{
+    font-size: 4rem;
+}
+#contact h1.section-title{
+    font-size: 4.5rem;
+}
+
+/*Services Cards*/
+#services .service-bottom .service-item{
+    flex-basis: 45%;
+    margin: 2.5%;
+}
+#services .service-top{
+    width: 728px;
+    margin: 0 auto;
+    padding: 70px 0px;
+}
+
+/*Projects Card*/
+
+#projects .project-item{
+    flex-direction: row;
+}
+#projects .project-item:nth-child(even){
+    flex-direction: row-reverse;
+}
+#projects .project-item
+{
+    height: 580px;
+    width: 100%;
+    margin: 0px;
+    border-radius: 0px;
+}
+#projects .all-project .project-info{
+    height: 100%;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    width: 50%;
+    
+}
+#projects .all-project .project-img{
+    height: 100%;
+    width: 50%;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+/*About Me*/
+
+#about .about{
+    flex-direction: row;
+    /* margin-bottom: 50px; */
+}
+#about .col-left{
+    width: 600px;
+    height: 400px;
+    padding-left: 60px;
+
+}
+#about .about .col-left .about-img::after{
+    left: -45px;
+    top: 34px;
+    height: 98%;
+    width: 98%;
+    border: 10px solid crimson;
+}
+#about .col-right{
+    text-align: left;
+}
+#about .col-right h1{
+
+    text-align: left;
+}
+#about .col-right .cta{
+   padding: 15px 40px;
+   
+}
+#about .col-right p{
+    padding-bottom: 30px;
+}
+
+/*Contact*/
+#contact .contact{
+    flex-direction: column;
+    /* padding: 100px 0; */
+    align-items: center;
+    justify-content: center;
+    min-width: 20vh;
+}
+#contact .contact-items{
+    display: flex;
+    flex-direction: row;
+    margin: 10 auto;
+    
+
+}
+#contact .contact-item{
+    width: 100%;
+    margin: 20px 10px;
+    /* flex-direction: row; */
+
+}
+#contact .contact-item h1{
+    font-size: 2rem;
+}
+#contact .contact-item h2{
+    font-size: 1rem;
+}
+#contact .contact-items .icon{
+    height: 80px;
+    width: 80px;
+}

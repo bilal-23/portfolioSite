@@ -1,0 +1,72 @@
+h1.section-title{ 
+    font-size: 6rem;
+}
+#projects h1.section-title{
+    font-size: 6rem;;
+}
+#about h1.section-title{
+    font-size: 6rem;
+}
+#contact h1.section-title{
+    font-size: 6rem;
+}
+#services .service-top h1{
+    font-size: 6rem;
+}
+
+
+/*Services*/
+
+#services .service-bottom .service-item{
+    flex-basis: 22%;
+    margin: 1.5%;
+}
+
+/*Contact cards*/
+
+#contact .contact-items{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 20px;
+}
+#contact .contact-item{
+    width: 100%;
+    margin: 20px ;
+    flex-direction: row;
+}
+#contact .contact-item .icon{
+    height: 80px;
+    width: 80px;
+}
+#contact .contact-item .icon img{
+    object-fit: contain;
+}
+#contact .contact-item .contact-info{
+    text-align: left;
+}
+
+/*nav*/
+#header .header h1{
+    font-size: 2rem;
+}
+#header .hamburger{
+    display: none;
+}
+#header .nav-list ul{
+    /* display: flex; */
+    position: initial;
+    display: block;
+    height: auto;
+    width: fit-content;
+    background-color:transparent;
+}
+#header .nav-list ul li{
+display: inline-block;
+}
+#header .nav-list ul li a{
+    font-size: 1.3rem;
+}
+#header .nav-list ul a:after{
+    display: none;
+}
